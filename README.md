@@ -24,7 +24,7 @@ Welcome to the NBA Games Prediction project repository! This project focuses on 
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/nba-games-prediction.git
+   git clone https://github.com/marioutiel/TFG.git
    ```
 2. Execute the notebooks in the following order:
 - scrapper.ipynb
