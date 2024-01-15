@@ -11,8 +11,6 @@ import pandas as pd
 # Create a Dash web application
 app = dash.Dash(__name__)
 
-app.css.append_css({'external_url': 'style.css'})
-
 # Define the layout of the web app
 app.layout = html.Div(className='container', children=[
     html.H1(className='header' ,children='NBA Visualization Tool'),
@@ -213,17 +211,17 @@ def update_plot(metric, team, year):
     )
 
     win_percentage_pie_chart = px.pie(
-        team_df['Target'].value_counts(),
-        title=f'Win Percentage',
-        names=team_df['Target'].value_counts().index,
-        labels={'Win': 'Win', 'Loss': 'Loss'}
+        team_df,
+        values=team_df['Target'].value_counts(),
+        names=team_df['Target'].unique(),
+        title='Win Percentage',
     )
 
     win_plot = px.line(
         team_df,
         x='Game',
         y=team_df['Target'].eq(1).cumsum(),
-        title=f'{team} Wins Evolution',
+        title=f'Wins Evolution',
         labels={'Game': 'Game', 'y': 'Total Wins'}
     )
 
@@ -231,7 +229,7 @@ def update_plot(metric, team, year):
         team_df,
         x='Game',
         y='Streak',
-        title=f'{team} Streak Evolution',
+        title=f'Streak Evolution',
         labels={'Game': 'Game', 'y': 'Streak'}
     )
 
