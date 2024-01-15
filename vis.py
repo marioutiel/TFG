@@ -99,6 +99,9 @@ app.layout = html.Div(className='container', children=[
     ]),
 
     html.Div(className='graph-container', children=[
+
+        html.H4(children='Plot of Metric - Team vs Opponent'),
+
         dcc.Graph(
             id='game-metric-plot',
         ),
@@ -109,24 +112,34 @@ app.layout = html.Div(className='container', children=[
     ]),
 
     html.Div(className='graph-container', children=[
+
+        html.H4(children='Plots of Metric by Win and Location'),
+
         dcc.Graph(
             id='metric-plot-win',
         ),
-        
+
         dcc.Graph(
-            id='metric-plot-local'
+            id='metric-plot-location'
+        ),
+
+        dcc.Graph(
+            id='metric-plot-both'
         )
     ]),
 
     html.H2(children='Team Evolution Statistics'),
 
     html.Div(className='graph-container', children=[
+
+        dcc.Graph(
+            id='win-pie-plot'
+        ),
+
         dcc.Graph(
             id='win-evolution-plot',
         ),
-    ]),
-
-    html.Div(className='graph-container', children=[
+        
         dcc.Graph(
             id='streak-evolution-plot',
         ),
@@ -140,7 +153,9 @@ app.layout = html.Div(className='container', children=[
     [Output('game-metric-plot', 'figure'),
      Output('opp-metric-plot', 'figure'),
      Output('metric-plot-win', 'figure'),
-     Output('metric-plot-local', 'figure'),
+     Output('metric-plot-location', 'figure'),
+     Output('metric-plot-both', 'figure'),
+     Output('win-pie-plot', 'figure'),
      Output('win-evolution-plot', 'figure'),
      Output('streak-evolution-plot', 'figure')],
     [Input('metric-dropdown', 'value'),
@@ -149,10 +164,10 @@ app.layout = html.Div(className='container', children=[
 )
 def update_plot(metric, team, year):
     if year == '2024':
-        file_path = f'TFG/data/CurrentSeason/{team}.xlsx'
+        file_path = f'data/CurrentSeason/{team}.xlsx'
         team_df = pd.read_excel(file_path)
     else:
-        file_path = f'TFG/data/TeamsData/{team}.xlsx'
+        file_path = f'data/TeamsData/{team}.xlsx'
         team_df = pd.read_excel(file_path, year)
     
 
@@ -185,15 +200,29 @@ def update_plot(metric, team, year):
         y=metric,
         x='Location',
         title=f'{metric} by Location',
-        labels={metric: metric, 'Win':'Win'},
-        color_discrete_sequence=['red']
+        labels={metric: metric, 'Location':'Location'}
+    )
+
+    win_local_metric_plot = px.box(
+        team_df,
+        y=metric,
+        x='Target',
+        color='Location',
+        title=f'{metric} by Win (colored by Location)',
+        labels={metric: metric, 'Win':'Win'}
+    )
+
+    win_percentage_pie_chart = px.pie(
+        team_df['Target'].value_counts(),
+        title=f'Win Percentage',
+        names=team_df['Target'].value_counts().index,
+        labels={'Win': 'Win', 'Loss': 'Loss'}
     )
 
     win_plot = px.line(
         team_df,
         x='Game',
-        y=team_df['Target'].eq(x for x in [0,1]).cumsum(),
-        color='Target',
+        y=team_df['Target'].eq(1).cumsum(),
         title=f'{team} Wins Evolution',
         labels={'Game': 'Game', 'y': 'Total Wins'}
     )
@@ -206,7 +235,8 @@ def update_plot(metric, team, year):
         labels={'Game': 'Game', 'y': 'Streak'}
     )
 
-    return metric_plot, opp_plot, win_metric_plot, local_metric_plot, win_plot, streak_plot
+    return (metric_plot, opp_plot, win_metric_plot, local_metric_plot, win_local_metric_plot, 
+           win_percentage_pie_chart, win_plot, streak_plot)
 
 # Run the web app
 if __name__ == '__main__':
