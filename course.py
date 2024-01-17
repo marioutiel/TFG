@@ -13,8 +13,16 @@ app = dash.Dash(__name__)
 app.layout = html.Div(children=[
     html.Div(className='header', children=[
         html.H1('NBA Team Dashboard'),
-        html.Img(src='assets/Logos/NBALogo.png',
-                 style={'width': '400px', 'height': 'auto'}),
+
+        html.Div(className='images-row', children=[
+            html.Img(src='assets/Logos/west.png', 
+                    style={'width': '300px', 'height': 'auto'}),
+            html.Img(src='assets/Logos/NBALogo.png',
+                     style={'width': '400px', 'height':'auto',
+                            'padding-left': '200px', 'padding-right': '200px'}),
+            html.Img(src='assets/Logos/east.png', 
+                    style={'width': '300px', 'height': 'auto'}),
+        ]),
 
         html.Div(children=[
             html.Label('Select Team:'),
@@ -55,7 +63,7 @@ app.layout = html.Div(children=[
                 value='ATL'
             ),
             html.Img(id='team-logo', 
-                style={'width': '200px', 'height': 'auto', 
+                style={'width': '150px', 'height': 'auto', 
                        'text-align': 'center', 'margin': '0.5%'}),
             
         ])
