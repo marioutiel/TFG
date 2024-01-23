@@ -157,8 +157,20 @@ app.layout = html.Div(children=[
                     {'label': 'Utah Jazz', 'value': 'UTA'},
                     {'label': 'Washington Wizards', 'value': 'WAS'},
                 ],
-                value='ATL'
+                value='BOS'
         ),
+
+        html.Div(className='images-row', children=[
+            html.Img(id='team-comp-logo', 
+                style={'width': '150px', 'height': 'auto', 
+                       'text-align': 'center', 'margin': '0.5%', 
+                       'padding-right': '50px'}),
+            html.Img(id='opp-comp-logo', 
+                style={'width': '150px', 'height': 'auto', 
+                       'text-align': 'center', 'margin': '0.5%',
+                       'padding-left': '50px'}),
+        ]),
+
         html.Label('Select Offensive or Defensive Comparison:'),
         dcc.RadioItems(
             id='off-def-items',
@@ -184,6 +196,8 @@ app.layout = html.Div(children=[
      Output('win-piechart', 'figure'),
      Output('win-lineplot', 'figure'),
      Output('streak-lineplot', 'figure'),
+     Output('team-comp-logo', 'src'),
+     Output('opp-comp-logo', 'src'),
      Output('comparison-plot', 'figure')],
     [Input('team-dropdown', 'value'),
      Input('season-dropdown', 'value'),
@@ -193,6 +207,7 @@ app.layout = html.Div(children=[
 )
 def update_plot(team, year, metric, opponent, kind):
     logo_path = f'assets/Logos/{team}.png'
+    opp_logo_path = f'assets/Logos/{opponent}.png'
 
     if year == '2024':
         file_path = f'data/CurrentSeason/{team}.xlsx'
@@ -203,6 +218,8 @@ def update_plot(team, year, metric, opponent, kind):
         team_df = pd.read_excel(file_path, year)
         opp_df = pd.read_excel(file_path.replace(team, opponent), year)
     
+    team_df['Target'] = team_df['Target'].apply(lambda x: 'Lose' if x == 0 else 'Win')
+    opp_df['Target'] = opp_df['Target'].apply(lambda x: 'Lose' if x == 0 else 'Win')
 
     metric_plot = px.box(
         team_df,
@@ -243,7 +260,7 @@ def update_plot(team, year, metric, opponent, kind):
     win_plot = px.line(
         team_df,
         x='Game',
-        y=team_df['Target'].eq(1).cumsum(),
+        y=team_df['Target'].eq('Win').cumsum(),
         title=f'Wins Evolution',
         labels={'Game': 'Game', 'y': 'Total Wins'}
     )
@@ -272,15 +289,15 @@ def update_plot(team, year, metric, opponent, kind):
         boxpoints='all', name=team), row=1, col=1)
     
     comparison_plot.add_trace(go.Scatter(x=opp_df['Game'],
-        y=opp_df['Target'].eq(1).cumsum(), name=opponent),
+        y=opp_df['Target'].eq('Win').cumsum(), name=opponent),
         row=1, col=2)
     comparison_plot.add_trace(go.Scatter(x=team_df['Game'],
-        y=team_df['Target'].eq(1).cumsum(), name=team),
+        y=team_df['Target'].eq('Win').cumsum(), name=team),
         row=1, col=2)
 
     return (logo_path, metric_plot, opp_plot, win_local_metric_plot,
            win_percentage_pie_chart, win_plot, streak_plot,
-           comparison_plot)
+           logo_path, opp_logo_path, comparison_plot)
 
 if __name__ == '__main__':
     app.run_server(debug=True, host='127.0.0.1', port='8080')
