@@ -117,6 +117,9 @@ def getTeamSeason(driver, soup, team_id):
     return pd.DataFrame(season_stats)
 
 def getTeamCurrentSeason(driver, soup, team_id):
+    current_df = pd.read_excel(f'data/CurrentSeason/{team_id}.xlsx', 'Games')
+    last_date = str(current_df['Date'].iloc[-1].date())
+
     table = soup.find('table', {'id': 'games'}).find('tbody')
     games = table.findAll('tr')
 
@@ -128,13 +131,14 @@ def getTeamCurrentSeason(driver, soup, team_id):
                 n_games += 1
                 date = game.find('td', {'data-stat': 'date_game'}).text
                 new_date = getDate(date)
-                game_link = boxscore.find('a').get('href')
-                game_soup = getSoup('https://www.basketball-reference.com'+game_link, driver)
-                game_data = getTeamGame(game_soup, team_id)
-                streak = int(game.find('td', {'data-stat': 'game_streak'}).text.replace('W ','+').replace('L ', '-'))
+                if str(new_date) > last_date:
+                    game_link = boxscore.find('a').get('href')
+                    game_soup = getSoup('https://www.basketball-reference.com'+game_link, driver)
+                    game_data = getTeamGame(game_soup, team_id)
+                    streak = int(game.find('td', {'data-stat': 'game_streak'}).text.replace('W ','+').replace('L ', '-'))
 
-                data = {'Game': n_games, 'Date': new_date, 'Streak': streak} | game_data
-                season_stats.append(data)
+                    data = {'Game': n_games, 'Date': new_date, 'Streak': streak} | game_data
+                    season_stats.append(data)
 
             else:
                 n_games += 1
@@ -146,7 +150,12 @@ def getTeamCurrentSeason(driver, soup, team_id):
                 next_data = {'Date': new_date, 'OppID': next_opp, 'Location': local}
                 next_games.append(next_data)
 
-    return pd.DataFrame(season_stats), pd.DataFrame(next_games)
+    new_games = pd.DataFrame(season_stats)
+    next_games = pd.DataFrame(next_games)
+
+    season_games = pd.concat([current_df, new_games])
+
+    return season_games, next_games
 
 def getAllTeamsSeason(driver, n_years=1, current=True):
     teams_url = 'https://www.basketball-reference.com/teams/'
