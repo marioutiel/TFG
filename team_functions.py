@@ -8,13 +8,13 @@ from selenium.webdriver import Firefox
 from selenium.webdriver.firefox.options import Options
 from bs4 import BeautifulSoup as bs
 
-import lightgbm as lgb
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score
+from sklearn.preprocessing import StandardScaler
+from sklearn.metrics import confusion_matrix, classification_report, accuracy_score
 
-def getSoup(url, driver=None, time=None):
-    if time:
-        time.sleep(time)
+def getSoup(url, driver=None, timer=None):
+    if timer:
+        time.sleep(timer)
     
     close = False
     if driver is None:
