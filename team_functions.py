@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
 import os
+import time
 
 from selenium.webdriver import Firefox
 from selenium.webdriver.firefox.options import Options
@@ -11,7 +12,10 @@ import lightgbm as lgb
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
-def getSoup(url, driver=None):
+def getSoup(url, driver=None, time=None):
+    if time:
+        time.sleep(time)
+    
     close = False
     if driver is None:
         close = True
@@ -55,14 +59,10 @@ def getTeamsID(soup):
     return teams_df
 
 def mapTeamID(team_id):
-    try:
-        df = pd.read_excel('data/teams_links.xlsx')
-    except:
-        df = getTeamsID(getSoup('https://www.basketball-reference.com/teams'))
-        df.to_excel('data/teams_links.xlsx', index=0)
-    
-    idx = df.loc[df['ID'] == team_id]['IDX'].values[0]
-    return idx
+    teams = ['ATL', 'BOS', 'BRK', 'CHI', 'CHO', 'CLE', 'DAL', 'DEN', 'DET', 'GSW', 
+             'HOU', 'IND', 'LAC', 'LAL', 'MEM', 'MIA','MIL', 'MIN', 'NOP', 'NYK', 
+             'OKC', 'ORL', 'PHI', 'PHO', 'POR', 'SAC', 'SAS', 'TOR', 'UTA', 'WAS']
+    return teams.index(team_id) + 1
 
 def getTeamGame(soup, team_id):
     teams = [x.text for x in soup.find('table', {'id': 'line_score'}).findAll('th', {'data-stat': 'team', 'scope':'row'})]
