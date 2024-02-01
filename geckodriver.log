@@ -16778,3 +16778,52 @@ JavaScript warning: https://sportsbook.draftkings.com/VEAt6/oqSS/GAj9/zi/NQJqq/5
 JavaScript warning: https://sportsbook.draftkings.com/leagues/basketball/nba, line 38: Script terminated by timeout at:
 nrWrapper@https://sportsbook.draftkings.com/leagues/basketball/nba:38:15607
 
+1706807880576	geckodriver	INFO	Listening on 127.0.0.1:54319
+1706807880629	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "40517" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile25LeR6"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706807880926	Marionette	INFO	Marionette enabled
+1706807880982	Marionette	INFO	Listening on port 42603
+WebDriver BiDi listening on ws://127.0.0.1:40517
+Read port: 42603
+1706807881192	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:40517/devtools/browser/0b734419-94ff-4de1-8dd2-bcf91dab77be
+JavaScript warning: https://sportsbook.draftkings.com/VEAt6/oqSS/GAj9/zi/NQJqq/5iV5mLQ86k/cGcuVDAD/LhVj/cHUMYGY, line 1: unreachable code after return statement
+JavaScript warning: https://sportsbook.draftkings.com/_sec/cp_challenge/sec-cpt-4-1.js, line 1: unreachable code after return statement
+JavaScript warning: https://sportsbook.draftkings.com/VEAt6/oqSS/GAj9/zi/NQJqq/5iV5mLQ86k/cGcuVDAD/LhVj/cHUMYGY, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1706807886153	Marionette	INFO	Stopped listening on port 42603
+JavaScript warning: https://sportsbook.draftkings.com/assets/client.7abf0be0f0ef05b97cb6.js, line 1: Script terminated by timeout at:
+5Lz9/pt<@https://sportsbook.draftkings.com/assets/client.7abf0be0f0ef05b97cb6.js:1:745750
+n@https://sportsbook.draftkings.com/assets/vendor.fde338a34f1ac0a49cd8.js:2:519783
+eQam/s/</<@https://sportsbook.draftkings.com/assets/vendor.fde338a34f1ac0a49cd8.js:2:514638
+eQam/s/<@https://sportsbook.draftkings.com/assets/vendor.fde338a34f1ac0a49cd8.js:2:514680
+d@https://sportsbook.draftkings.com/assets/vendor.fde338a34f1ac0a49cd8.js:2:517027
+o@https://sportsbook.draftkings.com/assets/vendor.fde338a34f1ac0a49cd8.js:2:515148
+G7oo/l/i/notify/<@https://sportsbook.draftkings.com/assets/vendor.fde338a34f1ac0a49cd8.js:2:515338
+pi@https://cdnjs.cloudflare.com/ajax/libs/react-dom/17.0.2/umd/react-dom.profiling.min.js:164:136
+notify@https://sportsbook.draftkings.com/assets/vendor.fde338a34f1ac0a49cd8.js:2:515308
+notifyNestedSubs@https://sportsbook.draftkings.com/assets/vendor.fde338a34f1ac0a49cd8.js:2:515717
+d@https://sportsbook.draftkings.com/assets/vendor.fde338a34f1ac0a49cd8.js:2:517096
+o@https://sportsbook.draftkings.com/assets/vendor.fde338a34f1ac0a49cd8.js:2:515148
+G7oo/l/i/notify/<@https://sportsbook.draftkings.com/assets/vendor.fde338a34f1ac0a49cd8.js:2:515338
+pi@https://cdnjs.cloudflare.com/ajax/libs/react-dom/17.0.2/umd/react-dom.profiling.min.js:164:136
+notify@https://sportsbook.draftkings.com/assets/vendor.fde338a34f1ac0a49cd8.js:2:515308
+notifyNestedSubs@https://sportsbook.draftkings.com/assets/vendor.fde338a34f1ac0a49cd8.js:2:515717
+o@https://sportsbook.draftkings.com/assets/vendor.fde338a34f1ac0a49cd8.js:2:515148
+m@https://sportsbook.draftkings.com/assets/vendor.fde338a34f1ac0a49cd8.js:2:679004
+5Lz9/zI</zI</zI<@https://sportsbook.draftkings.com/assets/client.7abf0be0f0ef05b97cb6.js:1:1817313
+5Lz9/zI</zI</zI<@https://sportsbook.draftkings.com/assets/client.7abf0be0f0ef05b97cb6.js:1:1817006
+5Lz9/DI/</<@https://sportsbook.draftkings.com/assets/client.7abf0be0f0ef05b97cb6.js:1:1799055
+5Lz9/zI</zI</zI<@https://sportsbook.draftkings.com/assets/client.7abf0be0f0ef05b97cb6.js:1:1808515
+5Lz9/bI/</<@https://sportsbook.draftkings.com/assets/client.7abf0be0f0ef05b97cb6.js:1:1795333
+5Lz9/hI/</<@https://sportsbook.draftkings.com/assets/client.7abf0be0f0ef05b97cb6.js:1:1794896
+TdMD/r/</</<@https://sportsbook.draftkings.com/assets/vendor.fde338a34f1ac0a49cd8.js:2:677660
+dispatch@https://sportsbook.draftkings.com/assets/vendor.fde338a34f1ac0a49cd8.js:2:681481
+f8lD/u/</<@https://sportsbook.draftkings.com/assets/client.7abf0be0f0ef05b97cb6.js:1:62547
+nrWrapper@https://sportsbook.draftkings.com/leagues/basketball/nba:38:15757
+
+JavaScript warning: https://sportsbook.draftkings.com/VEAt6/oqSS/GAj9/zi/NQJqq/5iV5mLQ86k/cGcuVDAD/LhVj/cHUMYGY, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sportsbook.draftkings.com/VEAt6/oqSS/GAj9/zi/NQJqq/5iV5mLQ86k/cGcuVDAD/LhVj/cHUMYGY, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
