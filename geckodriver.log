@@ -17171,3 +17171,137 @@ M/o.onerror@https://snap.licdn.com/li.lms-analytics/insight.min.js:1:5057
 
 JavaScript error: resource://gre/actors/ContentMetaChild.sys.mjs, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
 [76842] Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1707061306965	geckodriver	INFO	Listening on 127.0.0.1:36609
+1707061307046	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "54467" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilevNTJ2H"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1707061307526	Marionette	INFO	Marionette enabled
+1707061307624	Marionette	INFO	Listening on port 36933
+WebDriver BiDi listening on ws://127.0.0.1:54467
+Read port: 36933
+1707061307909	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:54467/devtools/browser/c5e2d634-e4d6-46e4-ba9e-5398f2462eae
+JavaScript warning: https://www.basketball-reference.com/boxscores/, line 204: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/boxscores/, line 204: unreachable code after return statement
+1707061321825	Marionette	INFO	Stopped listening on port 36933
+JavaScript warning: https://connect.facebook.net/signals/config/929333651348838?v=2.9.144&r=stable&domain=www.basketball-reference.com&hme=44ba03e7b4a66084f0064fdada9e7a7b89f6f2cf807a204d10c6509aeae35209&ex_m=62%2C105%2C93%2C97%2C53%2C3%2C88%2C61%2C14%2C86%2C79%2C44%2C46%2C148%2C151%2C162%2C158%2C159%2C161%2C25%2C89%2C45%2C68%2C160%2C143%2C146%2C155%2C156%2C163%2C114%2C13%2C43%2C167%2C166%2C116%2C16%2C29%2C32%2C1%2C36%2C57%2C58%2C59%2C63%2C83%2C15%2C12%2C85%2C82%2C81%2C94%2C96%2C31%2C95%2C26%2C22%2C144%2C147%2C123%2C24%2C9%2C10%2C11%2C5%2C6%2C21%2C19%2C20%2C49%2C54%2C56%2C66%2C90%2C23%2C67%2C8%2C7%2C71%2C41%2C18%2C91%2C17%2C4%2C73%2C80%2C72%2C78%2C40%2C39%2C77%2C33%2C35%2C76%2C48%2C74%2C28%2C37%2C65%2C0%2C84%2C75%2C2%2C30%2C55%2C34%2C92%2C38%2C70%2C60%2C98%2C52%2C51%2C27%2C87%2C50%2C47%2C42%2C69%2C64%2C99, line 92: Script terminated by timeout at:
+E@https://connect.facebook.net/signals/config/929333651348838?v=2.9.144&r=stable&domain=www.basketball-reference.com&hme=44ba03e7b4a66084f0064fdada9e7a7b89f6f2cf807a204d10c6509aeae35209&ex_m=62%2C105%2C93%2C97%2C53%2C3%2C88%2C61%2C14%2C86%2C79%2C44%2C46%2C148%2C151%2C162%2C158%2C159%2C161%2C25%2C89%2C45%2C68%2C160%2C143%2C146%2C155%2C156%2C163%2C114%2C13%2C43%2C167%2C166%2C116%2C16%2C29%2C32%2C1%2C36%2C57%2C58%2C59%2C63%2C83%2C15%2C12%2C85%2C82%2C81%2C94%2C96%2C31%2C95%2C26%2C22%2C144%2C147%2C123%2C24%2C9%2C10%2C11%2C5%2C6%2C21%2C19%2C20%2C49%2C54%2C56%2C66%2C90%2C23%2C67%2C8%2C7%2C71%2C41%2C18%2C91%2C17%2C4%2C73%2C80%2C72%2C78%2C40%2C39%2C77%2C33%2C35%2C76%2C48%2C74%2C28%2C37%2C65%2C0%2C84%2C75%2C2%2C30%2C55%2C34%2C92%2C38%2C70%2C60%2C98%2C52%2C51%2C27%2C87%2C50%2C47%2C42%2C69%2C64%2C99:92:2223
+c@https://connect.facebook.net/signals/config/929333651348838?v=2.9.144&r=stable&domain=www.basketball-reference.com&hme=44ba03e7b4a66084f0064fdada9e7a7b89f6f2cf807a204d10c6509aeae35209&ex_m=62%2C105%2C93%2C97%2C53%2C3%2C88%2C61%2C14%2C86%2C79%2C44%2C46%2C148%2C151%2C162%2C158%2C159%2C161%2C25%2C89%2C45%2C68%2C160%2C143%2C146%2C155%2C156%2C163%2C114%2C13%2C43%2C167%2C166%2C116%2C16%2C29%2C32%2C1%2C36%2C57%2C58%2C59%2C63%2C83%2C15%2C12%2C85%2C82%2C81%2C94%2C96%2C31%2C95%2C26%2C22%2C144%2C147%2C123%2C24%2C9%2C10%2C11%2C5%2C6%2C21%2C19%2C20%2C49%2C54%2C56%2C66%2C90%2C23%2C67%2C8%2C7%2C71%2C41%2C18%2C91%2C17%2C4%2C73%2C80%2C72%2C78%2C40%2C39%2C77%2C33%2C35%2C76%2C48%2C74%2C28%2C37%2C65%2C0%2C84%2C75%2C2%2C30%2C55%2C34%2C92%2C38%2C70%2C60%2C98%2C52%2C51%2C27%2C87%2C50%2C47%2C42%2C69%2C64%2C99:92:3238
+
+1707061482139	geckodriver	INFO	Listening on 127.0.0.1:60823
+1707061482209	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "43831" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileCdmhQY"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1707061482686	Marionette	INFO	Marionette enabled
+1707061482785	Marionette	INFO	Listening on port 34113
+WebDriver BiDi listening on ws://127.0.0.1:43831
+Read port: 34113
+1707061483053	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:43831/devtools/browser/ad835b76-2a9d-4bab-b0cb-bb7f747c6184
+JavaScript warning: https://www.basketball-reference.com/boxscores/, line 204: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/boxscores/, line 204: unreachable code after return statement
+1707061486711	Marionette	INFO	Stopped listening on port 34113
+1707066264462	geckodriver	INFO	Listening on 127.0.0.1:35487
+1707066264523	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "56831" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile7cjkdf"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1707066264892	Marionette	INFO	Marionette enabled
+1707066264959	Marionette	INFO	Listening on port 46759
+WebDriver BiDi listening on ws://127.0.0.1:56831
+Read port: 46759
+1707066265189	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:56831/devtools/browser/680ef557-ac15-4acf-a4ba-bdc8f1adbc76
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1707066346761	geckodriver	INFO	Listening on 127.0.0.1:47941
+1707066346830	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "56575" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile2dmiHE"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1707066347158	Marionette	INFO	Marionette enabled
+1707066347216	Marionette	INFO	Listening on port 39375
+WebDriver BiDi listening on ws://127.0.0.1:56575
+Read port: 39375
+1707066347304	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:56575/devtools/browser/aa7c2823-9643-417c-b277-9df71ea7a35e
+JavaScript warning: https://www.basketball-reference.com/boxscores/, line 204: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/boxscores/, line 204: unreachable code after return statement
+1707066353249	Marionette	INFO	Stopped listening on port 39375
+1707066617311	geckodriver	INFO	Listening on 127.0.0.1:50259
+1707066617374	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "52993" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile5SHvtk"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1707066617715	Marionette	INFO	Marionette enabled
+1707066617775	Marionette	INFO	Listening on port 42389
+WebDriver BiDi listening on ws://127.0.0.1:52993
+Read port: 42389
+1707066617999	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:52993/devtools/browser/465e67d3-e88c-47b2-b4cb-7d2342b590a3
+JavaScript warning: https://www.basketball-reference.com/boxscores/, line 204: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/boxscores/, line 204: unreachable code after return statement
+1707066621336	Marionette	INFO	Stopped listening on port 42389
+1707066665287	geckodriver	INFO	Listening on 127.0.0.1:54457
+1707066665839	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "41343" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileDMP6cy"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1707066666150	Marionette	INFO	Marionette enabled
+1707066666209	Marionette	INFO	Listening on port 41675
+WebDriver BiDi listening on ws://127.0.0.1:41343
+Read port: 41675
+1707066666436	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:41343/devtools/browser/2f4ccfa4-2c6a-4805-bda3-003f7208ca49
+JavaScript warning: https://www.basketball-reference.com/boxscores/, line 204: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/boxscores/, line 204: unreachable code after return statement
+1707066669621	Marionette	INFO	Stopped listening on port 41675
+1707066742557	geckodriver	INFO	Listening on 127.0.0.1:44483
+1707066742643	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "59281" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilend2o7x"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1707066742976	Marionette	INFO	Marionette enabled
+1707066743037	Marionette	INFO	Listening on port 45955
+Read port: 45955
+WebDriver BiDi listening on ws://127.0.0.1:59281
+1707066743133	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:59281/devtools/browser/121178ad-cf04-4fe9-b79b-771e984ba7aa
+JavaScript warning: https://www.basketball-reference.com/boxscores/, line 204: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/boxscores/, line 204: unreachable code after return statement
+JavaScript warning: https://sportsbook.draftkings.com/qC-byH0mM2PFuroWdZJuPDdt8l8/V5L9t64bLf/OTsqAg/CzZmfn1/gA0Y, line 1: unreachable code after return statement
+JavaScript warning: https://sportsbook.draftkings.com/_sec/cp_challenge/sec-cpt-4-1.js, line 1: unreachable code after return statement
+JavaScript warning: https://sportsbook.draftkings.com/qC-byH0mM2PFuroWdZJuPDdt8l8/V5L9t64bLf/OTsqAg/CzZmfn1/gA0Y, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1707066750255	Marionette	INFO	Stopped listening on port 45955
+JavaScript warning: https://sportsbook.draftkings.com/leagues/basketball/nba, line 38: Script terminated by timeout at:
+nrWrapper@https://sportsbook.draftkings.com/leagues/basketball/nba:38:15607
+R@https://sportsbook.draftkings.com/leagues/basketball/nba:38:32234
+v@https://sportsbook.draftkings.com/leagues/basketball/nba:38:29889
+m@https://sportsbook.draftkings.com/leagues/basketball/nba:38:6842
+O@https://sportsbook.draftkings.com/leagues/basketball/nba:38:30498
+m@https://sportsbook.draftkings.com/leagues/basketball/nba:38:6842
+m@https://sportsbook.draftkings.com/leagues/basketball/nba:38:6780
+i@https://sportsbook.draftkings.com/leagues/basketball/nba:38:15890
+nrWrapper@https://sportsbook.draftkings.com/leagues/basketball/nba:38:15817
+
+JavaScript warning: https://sportsbook.draftkings.com/qC-byH0mM2PFuroWdZJuPDdt8l8/V5L9t64bLf/OTsqAg/CzZmfn1/gA0Y, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sportsbook.draftkings.com/qC-byH0mM2PFuroWdZJuPDdt8l8/V5L9t64bLf/OTsqAg/CzZmfn1/gA0Y, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
