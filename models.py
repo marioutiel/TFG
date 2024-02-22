@@ -144,3 +144,83 @@ class BinaryFCNN4(nn.Module):
         x = self.sigmoid(self.fc5(x))
         
         return x
+    
+class SimpleRNN(nn.Module):
+
+    def __init__(self, rnn_dim, hidden_size, dropout, batch_first):
+        super(SimpleRNN, self).__init__()
+
+        self.RNN = nn.RNN(
+            input_size=rnn_dim, hidden_size=hidden_size,
+            num_layers=1, batch_first=batch_first)
+        self.layer_norm = nn.LayerNorm(rnn_dim)
+        self.dropout = nn.Dropout(dropout)
+        self.gelu = nn.GELU()
+
+    def forward(self, inputs):
+        x = self.layer_norm(inputs)
+        x = self.gelu(x)
+        
+        x, _ = self.RNN(x)
+        x = self.dropout(x)
+        
+        return x
+    
+class BinaryRNN(nn.Module):
+    
+    def __init__(self, n_rnn_layers, input_size, rnn_dim, dropout=0.5):
+        super(BinaryRNN, self).__init__()
+        
+        self.fc = nn.Linear(input_size, rnn_dim)
+        
+        self.recursive_layers = nn.Sequential(*[
+            SimpleRNN(rnn_dim=rnn_dim, hidden_size=rnn_dim,
+                      dropout=dropout, batch_first= i==0)
+            for i in range(n_rnn_layers)
+        ])
+        
+        self.fc1 = nn.Linear(rnn_dim, 22)
+        self.batchnorm = nn.BatchNorm1d(22)
+        self.gelu = nn.GELU()
+        self.dropout = nn.Dropout(dropout)
+        self.fc2 = nn.Linear(22, 1)
+        self.sigmoid = nn.Sigmoid()
+        
+    def forward(self, inputs):
+        x = self.fc(inputs)
+        x = self.recursive_layers(x)
+        
+        x = self.batchnorm(self.fc1(x))
+        x = self.gelu(x)
+        
+        x = self.dropout(x)
+        x = self.sigmoid(self.fc2(x))
+        
+        return x
+    
+class BinaryLSTM(nn.Module):
+    
+    def __init__(self, input_size):
+        super(BinaryLSTM, self).__init__()
+        
+        self.lstm1 = nn.LSTM(input_size, input_size, batch_first=True)
+        
+        self.fc1 = nn.Linear(input_size, 6)
+        self.fc2 = nn.Linear(6, 1)
+        
+        self.leaky = nn.LeakyReLU()
+        
+        self.batchnorm = nn.BatchNorm1d(6)
+        self.dropout = nn.Dropout(0.5)
+        self.sigmoid = nn.Sigmoid()
+        
+    def forward(self, inputs):
+        x, _ = self.lstm1(inputs)
+        
+        x = self.batchnorm(self.fc1(x))
+        x = self.leaky(x)
+        
+        x = self.dropout(x)
+        x = self.sigmoid(self.fc2(x))
+        
+        return x
