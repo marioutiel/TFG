@@ -211,7 +211,7 @@ def getAllTeamsSeason(driver, n_years=1, current=True):
 
         print(f'[{"="*(idx+1)}{" "*(n_teams-idx-1)}] ({((idx+1)/n_teams)*100:.2f}%)', end='\r')
 
-def getTeamRollingSeason(team_df):
+def getTeamRollingSeason(team_df, window=-1):
     df = team_df.copy()
     df['Streak'] = df['Streak'].shift(1)
     df.loc[df.isna().any(axis=1), ['Streak']] = 0
@@ -222,10 +222,17 @@ def getTeamRollingSeason(team_df):
         copy = df.copy()
         for col in team_cols:
             if col == 'Pace':
-                copy[col] = df[col].transform(lambda x: x.shift(1).rolling(window=idx).mean())
+                if window == -1:
+                    copy[col] = df[col].transform(lambda x: x.shift(1).rolling(window=idx).mean())
+                else:
+                    copy[col] = df[col].transform(lambda x: x.shift(1).rolling(window=window).mean())
             else:
-                copy[col] = df[col].transform(lambda x: x.shift(1).rolling(window=idx).mean())
-                copy['Opp'+col] = df['Opp'+col].transform(lambda x: x.shift(1).rolling(window=idx).mean())
+                if window == -1:
+                    copy[col] = df[col].transform(lambda x: x.shift(1).rolling(window=idx).mean())
+                    copy['Opp'+col] = df['Opp'+col].transform(lambda x: x.shift(1).rolling(window=idx).mean())
+                else:
+                    copy[col] = df[col].transform(lambda x: x.shift(1).rolling(window=window).mean())
+                    copy['Opp'+col] = df['Opp'+col].transform(lambda x: x.shift(1).rolling(window=window).mean())
 
         final.iloc[idx] = copy.iloc[idx]
 
