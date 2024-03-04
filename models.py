@@ -179,11 +179,11 @@ class BinaryRNN(nn.Module):
             for i in range(n_rnn_layers)
         ])
         
-        self.fc1 = nn.Linear(rnn_dim, 22)
-        self.batchnorm = nn.BatchNorm1d(22)
+        self.fc1 = nn.Linear(rnn_dim, input_size)
+        self.batchnorm = nn.BatchNorm1d(input_size)
         self.gelu = nn.GELU()
         self.dropout = nn.Dropout(dropout)
-        self.fc2 = nn.Linear(22, 1)
+        self.fc2 = nn.Linear(input_size, 1)
         self.sigmoid = nn.Sigmoid()
         
     def forward(self, inputs):
