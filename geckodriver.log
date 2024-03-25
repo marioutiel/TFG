@@ -23536,3 +23536,146 @@ JavaScript warning: https://www.basketball-reference.com/teams/HOU/2024_games.ht
 JavaScript warning: https://www.basketball-reference.com/boxscores/202403230HOU.html, line 201: unreachable code after return statement
 JavaScript warning: https://www.basketball-reference.com/boxscores/202403230HOU.html, line 201: unreachable code after return statement
 1711285352131	Marionette	INFO	Stopped listening on port 36111
+1711364314715	geckodriver	INFO	Listening on 127.0.0.1:58083
+1711364315304	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "50813" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileaHEXjM"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711364315657	Marionette	INFO	Marionette enabled
+1711364315734	Marionette	INFO	Listening on port 43515
+WebDriver BiDi listening on ws://127.0.0.1:50813
+Read port: 43515
+1711364315966	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:50813/devtools/browser/0942d866-cf13-4f98-8867-4e9db8f4515a
+JavaScript warning: https://www.basketball-reference.com/boxscores/, line 203: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/boxscores/, line 203: unreachable code after return statement
+1711364318831	Marionette	INFO	Stopped listening on port 43515
+1711364333257	geckodriver	INFO	Listening on 127.0.0.1:51501
+1711364333306	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "53053" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilejvXNhZ"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711364333642	Marionette	INFO	Marionette enabled
+1711364333713	Marionette	INFO	Listening on port 44695
+WebDriver BiDi listening on ws://127.0.0.1:53053
+Read port: 44695
+1711364333945	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:53053/devtools/browser/7e7fc04d-472d-4e3f-b048-094f5ac901ad
+JavaScript warning: https://www.basketball-reference.com/boxscores/, line 203: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/boxscores/, line 203: unreachable code after return statement
+JavaScript warning: https://cdn.ssref.net/req/202403142/js/bbr/sr-min.js, line 1: Script terminated by timeout at:
+@https://cdn.ssref.net/req/202403142/js/bbr/sr-min.js:1:221466
+
+JavaScript warning: https://sportsbook.draftkings.com/eGV3J6/UKUT/yn-8/o1eH/PXHlzd/uJJ5f0mhcXL9S9/ACR4OywxBA/UEsxHH/lyJxk, line 1: unreachable code after return statement
+JavaScript warning: https://sportsbook.draftkings.com/_sec/cp_challenge/sec-cpt-4-3.js, line 1: unreachable code after return statement
+JavaScript warning: https://sportsbook.draftkings.com/eGV3J6/UKUT/yn-8/o1eH/PXHlzd/uJJ5f0mhcXL9S9/ACR4OywxBA/UEsxHH/lyJxk, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sportsbook.draftkings.com/eGV3J6/UKUT/yn-8/o1eH/PXHlzd/uJJ5f0mhcXL9S9/ACR4OywxBA/UEsxHH/lyJxk, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sportsbook.draftkings.com/eGV3J6/UKUT/yn-8/o1eH/PXHlzd/uJJ5f0mhcXL9S9/ACR4OywxBA/UEsxHH/lyJxk, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1711364340880	Marionette	INFO	Stopped listening on port 44695
+JavaScript warning: https://sportsbook.draftkings.com/leagues/basketball/nba, line 28: Script terminated by timeout at:
+nrWrapper@https://sportsbook.draftkings.com/leagues/basketball/nba:28:15607
+
+1711364354661	geckodriver	INFO	Listening on 127.0.0.1:50963
+1711364354725	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "37021" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileVxdSwu"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711364355048	Marionette	INFO	Marionette enabled
+1711364355109	Marionette	INFO	Listening on port 37079
+WebDriver BiDi listening on ws://127.0.0.1:37021
+Read port: 37079
+1711364355294	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:37021/devtools/browser/b7118604-ea96-4858-aef5-23504d168427
+JavaScript warning: https://www.basketball-reference.com/teams/LAL/2024_games.html, line 203: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/LAL/2024_games.html, line 203: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/boxscores/202403240LAL.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/boxscores/202403240LAL.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/MIA/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/MIA/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/boxscores/202403240MIA.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/boxscores/202403240MIA.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/POR/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/POR/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/IND/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/IND/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/boxscores/202403240LAL.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/boxscores/202403240LAL.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/MIL/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/MIL/2024_games.html, line 201: unreachable code after return statement
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+JavaScript warning: https://www.basketball-reference.com/boxscores/202403240MIL.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/boxscores/202403240MIL.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/UTA/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/UTA/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/SAC/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/SAC/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/BOS/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/BOS/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/SAS/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/SAS/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/CLE/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/CLE/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/boxscores/202403240MIA.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/boxscores/202403240MIA.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/ATL/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/ATL/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/DET/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/DET/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/boxscores/202403240DET.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/boxscores/202403240DET.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/MIN/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/MIN/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/boxscores/202403240MIN.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/boxscores/202403240MIN.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/BRK/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/BRK/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/TOR/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/TOR/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/NYK/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/NYK/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/ORL/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/ORL/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/MEM/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/MEM/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/CHI/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/CHI/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/WAS/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/WAS/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/CHO/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/CHO/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/GSW/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/GSW/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/boxscores/202403240MIN.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/boxscores/202403240MIN.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/PHI/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/PHI/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/boxscores/202403240LAC.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/boxscores/202403240LAC.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/DEN/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/DEN/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/PHO/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/PHO/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/LAC/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/LAC/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/boxscores/202403240LAC.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/boxscores/202403240LAC.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/NOP/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/NOP/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/boxscores/202403240DET.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/boxscores/202403240DET.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/OKC/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/OKC/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/boxscores/202403240MIL.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/boxscores/202403240MIL.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/DAL/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/DAL/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/HOU/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/HOU/2024_games.html, line 201: unreachable code after return statement
+1711364511430	Marionette	INFO	Stopped listening on port 37079
+JavaScript error: resource://gre/actors/ContentMetaChild.sys.mjs, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
