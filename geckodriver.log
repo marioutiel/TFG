@@ -23881,3 +23881,172 @@ JavaScript warning: https://www.basketball-reference.com/teams/HOU/2024_games.ht
 JavaScript warning: https://www.basketball-reference.com/boxscores/202403250HOU.html, line 201: unreachable code after return statement
 JavaScript warning: https://www.basketball-reference.com/boxscores/202403250HOU.html, line 201: unreachable code after return statement
 1711468948655	Marionette	INFO	Stopped listening on port 37057
+1711560726078	geckodriver	INFO	Listening on 127.0.0.1:54739
+1711560726640	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "43957" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiletqsVqI"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711560727152	Marionette	INFO	Marionette enabled
+1711560727253	Marionette	INFO	Listening on port 38933
+WebDriver BiDi listening on ws://127.0.0.1:43957
+Read port: 38933
+1711560727588	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:43957/devtools/browser/fe0b55d7-8075-487a-a99e-490c336d2a2e
+JavaScript warning: https://www.basketball-reference.com/boxscores/, line 203: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/boxscores/, line 203: unreachable code after return statement
+1711560731504	Marionette	INFO	Stopped listening on port 38933
+1711560808515	geckodriver	INFO	Listening on 127.0.0.1:60345
+1711560808593	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "36449" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile1IVyfP"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711560809049	Marionette	INFO	Marionette enabled
+1711560809143	Marionette	INFO	Listening on port 41657
+WebDriver BiDi listening on ws://127.0.0.1:36449
+Read port: 41657
+1711560809448	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:36449/devtools/browser/17e6ef9b-116f-42ad-8627-04492b92413c
+JavaScript warning: https://www.basketball-reference.com/boxscores/, line 203: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/boxscores/, line 203: unreachable code after return statement
+JavaScript warning: https://sportsbook.draftkings.com/hXlNvKziJ/Loazgmcx/cbo4YMWc/Y0/OEf5GD2kLVzO/IXh6AQ/Axk7YFly/ZG8, line 1: unreachable code after return statement
+JavaScript warning: https://sportsbook.draftkings.com/_sec/cp_challenge/sec-cpt-4-3.js, line 1: unreachable code after return statement
+JavaScript warning: https://sportsbook.draftkings.com/hXlNvKziJ/Loazgmcx/cbo4YMWc/Y0/OEf5GD2kLVzO/IXh6AQ/Axk7YFly/ZG8, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sportsbook.draftkings.com/hXlNvKziJ/Loazgmcx/cbo4YMWc/Y0/OEf5GD2kLVzO/IXh6AQ/Axk7YFly/ZG8, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sportsbook.draftkings.com/hXlNvKziJ/Loazgmcx/cbo4YMWc/Y0/OEf5GD2kLVzO/IXh6AQ/Axk7YFly/ZG8, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1711560831925	Marionette	INFO	Stopped listening on port 41657
+JavaScript warning: https://sportsbook.draftkings.com/leagues/basketball/nba, line 28: Script terminated by timeout at:
+nrWrapper@https://sportsbook.draftkings.com/leagues/basketball/nba:28:15607
+
+1711560876094	geckodriver	INFO	Listening on 127.0.0.1:47435
+1711560876173	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "55201" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilevDnP8p"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711560876672	Marionette	INFO	Marionette enabled
+1711560876767	Marionette	INFO	Listening on port 33509
+Read port: 33509
+WebDriver BiDi listening on ws://127.0.0.1:55201
+1711560876870	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:55201/devtools/browser/268f4f64-88a4-4631-808a-855cb9b3dd5c
+JavaScript warning: https://www.basketball-reference.com/teams/LAL/2024_games.html, line 203: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/LAL/2024_games.html, line 203: unreachable code after return statement
+JavaScript error: https://a.pub.network/basketball-reference/pubfig.min.js, line 1: Error: AB TEST FOUND - exiting after creating new instance...
+JavaScript warning: https://www.basketball-reference.com/boxscores/202403260MIL.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/boxscores/202403260MIL.html, line 201: unreachable code after return statement
+JavaScript error: https://a.pub.network/basketball-reference/pubfig.min.js, line 1: Error: AB TEST FOUND - exiting after creating new instance...
+JavaScript warning: https://www.basketball-reference.com/teams/MIA/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/MIA/2024_games.html, line 201: unreachable code after return statement
+JavaScript error: https://a.pub.network/basketball-reference/pubfig.min.js, line 1: Error: AB TEST FOUND - exiting after creating new instance...
+JavaScript warning: https://www.basketball-reference.com/boxscores/202403260MIA.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/boxscores/202403260MIA.html, line 201: unreachable code after return statement
+JavaScript error: https://a.pub.network/basketball-reference/pubfig.min.js, line 1: Error: AB TEST FOUND - exiting after creating new instance...
+JavaScript warning: https://www.basketball-reference.com/teams/POR/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/POR/2024_games.html, line 201: unreachable code after return statement
+JavaScript error: https://a.pub.network/basketball-reference/pubfig.min.js, line 1: Error: AB TEST FOUND - exiting after creating new instance...
+JavaScript warning: https://www.basketball-reference.com/teams/IND/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/IND/2024_games.html, line 201: unreachable code after return statement
+JavaScript error: https://a.pub.network/basketball-reference/pubfig.min.js, line 1: Error: AB TEST FOUND - exiting after creating new instance...
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+JavaScript warning: https://www.basketball-reference.com/teams/MIL/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/MIL/2024_games.html, line 201: unreachable code after return statement
+JavaScript error: https://a.pub.network/basketball-reference/pubfig.min.js, line 1: Error: AB TEST FOUND - exiting after creating new instance...
+JavaScript warning: https://www.basketball-reference.com/boxscores/202403260MIL.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/boxscores/202403260MIL.html, line 201: unreachable code after return statement
+JavaScript error: https://a.pub.network/basketball-reference/pubfig.min.js, line 1: Error: AB TEST FOUND - exiting after creating new instance...
+JavaScript warning: https://www.basketball-reference.com/teams/UTA/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/UTA/2024_games.html, line 201: unreachable code after return statement
+JavaScript error: https://a.pub.network/basketball-reference/pubfig.min.js, line 1: Error: AB TEST FOUND - exiting after creating new instance...
+JavaScript warning: https://www.basketball-reference.com/teams/SAC/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/SAC/2024_games.html, line 201: unreachable code after return statement
+JavaScript error: https://a.pub.network/basketball-reference/pubfig.min.js, line 1: Error: AB TEST FOUND - exiting after creating new instance...
+JavaScript warning: https://www.basketball-reference.com/boxscores/202403260SAC.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/boxscores/202403260SAC.html, line 201: unreachable code after return statement
+JavaScript error: https://a.pub.network/basketball-reference/pubfig.min.js, line 1: Error: AB TEST FOUND - exiting after creating new instance...
+JavaScript warning: https://www.basketball-reference.com/teams/BOS/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/BOS/2024_games.html, line 201: unreachable code after return statement
+JavaScript error: https://a.pub.network/basketball-reference/pubfig.min.js, line 1: Error: AB TEST FOUND - exiting after creating new instance...
+JavaScript warning: https://www.basketball-reference.com/teams/SAS/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/SAS/2024_games.html, line 201: unreachable code after return statement
+JavaScript error: https://a.pub.network/basketball-reference/pubfig.min.js, line 1: Error: AB TEST FOUND - exiting after creating new instance...
+JavaScript warning: https://www.basketball-reference.com/teams/CLE/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/CLE/2024_games.html, line 201: unreachable code after return statement
+JavaScript error: https://a.pub.network/basketball-reference/pubfig.min.js, line 1: Error: AB TEST FOUND - exiting after creating new instance...
+JavaScript warning: https://www.basketball-reference.com/teams/ATL/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/ATL/2024_games.html, line 201: unreachable code after return statement
+JavaScript error: https://a.pub.network/basketball-reference/pubfig.min.js, line 1: Error: AB TEST FOUND - exiting after creating new instance...
+JavaScript warning: https://www.basketball-reference.com/teams/DET/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/DET/2024_games.html, line 201: unreachable code after return statement
+JavaScript error: https://a.pub.network/basketball-reference/pubfig.min.js, line 1: Error: AB TEST FOUND - exiting after creating new instance...
+JavaScript warning: https://www.basketball-reference.com/teams/MIN/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/MIN/2024_games.html, line 201: unreachable code after return statement
+JavaScript error: https://a.pub.network/basketball-reference/pubfig.min.js, line 1: Error: AB TEST FOUND - exiting after creating new instance...
+JavaScript warning: https://www.basketball-reference.com/teams/BRK/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/BRK/2024_games.html, line 201: unreachable code after return statement
+JavaScript error: https://a.pub.network/basketball-reference/pubfig.min.js, line 1: Error: AB TEST FOUND - exiting after creating new instance...
+JavaScript warning: https://www.basketball-reference.com/teams/TOR/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/TOR/2024_games.html, line 201: unreachable code after return statement
+JavaScript error: https://a.pub.network/basketball-reference/pubfig.min.js, line 1: Error: AB TEST FOUND - exiting after creating new instance...
+JavaScript warning: https://www.basketball-reference.com/teams/NYK/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/NYK/2024_games.html, line 201: unreachable code after return statement
+JavaScript error: https://a.pub.network/basketball-reference/pubfig.min.js, line 1: Error: AB TEST FOUND - exiting after creating new instance...
+JavaScript warning: https://www.basketball-reference.com/teams/ORL/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/ORL/2024_games.html, line 201: unreachable code after return statement
+JavaScript error: https://a.pub.network/basketball-reference/pubfig.min.js, line 1: Error: AB TEST FOUND - exiting after creating new instance...
+JavaScript warning: https://www.basketball-reference.com/teams/MEM/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/MEM/2024_games.html, line 201: unreachable code after return statement
+JavaScript error: https://a.pub.network/basketball-reference/pubfig.min.js, line 1: Error: AB TEST FOUND - exiting after creating new instance...
+JavaScript warning: https://www.basketball-reference.com/teams/CHI/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/CHI/2024_games.html, line 201: unreachable code after return statement
+JavaScript error: https://a.pub.network/basketball-reference/pubfig.min.js, line 1: Error: AB TEST FOUND - exiting after creating new instance...
+JavaScript warning: https://www.basketball-reference.com/teams/WAS/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/WAS/2024_games.html, line 201: unreachable code after return statement
+JavaScript error: https://a.pub.network/basketball-reference/pubfig.min.js, line 1: Error: AB TEST FOUND - exiting after creating new instance...
+JavaScript warning: https://www.basketball-reference.com/teams/CHO/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/CHO/2024_games.html, line 201: unreachable code after return statement
+JavaScript error: https://a.pub.network/basketball-reference/pubfig.min.js, line 1: Error: AB TEST FOUND - exiting after creating new instance...
+JavaScript warning: https://www.basketball-reference.com/teams/GSW/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/GSW/2024_games.html, line 201: unreachable code after return statement
+JavaScript error: https://a.pub.network/basketball-reference/pubfig.min.js, line 1: Error: AB TEST FOUND - exiting after creating new instance...
+JavaScript warning: https://www.basketball-reference.com/boxscores/202403260MIA.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/boxscores/202403260MIA.html, line 201: unreachable code after return statement
+JavaScript error: https://a.pub.network/basketball-reference/pubfig.min.js, line 1: Error: AB TEST FOUND - exiting after creating new instance...
+JavaScript warning: https://www.basketball-reference.com/teams/PHI/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/PHI/2024_games.html, line 201: unreachable code after return statement
+JavaScript error: https://a.pub.network/basketball-reference/pubfig.min.js, line 1: Error: AB TEST FOUND - exiting after creating new instance...
+JavaScript warning: https://www.basketball-reference.com/teams/DEN/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/DEN/2024_games.html, line 201: unreachable code after return statement
+JavaScript error: https://a.pub.network/basketball-reference/pubfig.min.js, line 1: Error: AB TEST FOUND - exiting after creating new instance...
+JavaScript warning: https://www.basketball-reference.com/teams/PHO/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/PHO/2024_games.html, line 201: unreachable code after return statement
+JavaScript error: https://a.pub.network/basketball-reference/pubfig.min.js, line 1: Error: AB TEST FOUND - exiting after creating new instance...
+JavaScript warning: https://www.basketball-reference.com/teams/LAC/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/LAC/2024_games.html, line 201: unreachable code after return statement
+JavaScript error: https://a.pub.network/basketball-reference/pubfig.min.js, line 1: Error: AB TEST FOUND - exiting after creating new instance...
+JavaScript warning: https://www.basketball-reference.com/teams/NOP/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/NOP/2024_games.html, line 201: unreachable code after return statement
+JavaScript error: https://a.pub.network/basketball-reference/pubfig.min.js, line 1: Error: AB TEST FOUND - exiting after creating new instance...
+JavaScript warning: https://www.basketball-reference.com/boxscores/202403260NOP.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/boxscores/202403260NOP.html, line 201: unreachable code after return statement
+JavaScript error: https://a.pub.network/basketball-reference/pubfig.min.js, line 1: Error: AB TEST FOUND - exiting after creating new instance...
+JavaScript warning: https://www.basketball-reference.com/teams/OKC/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/OKC/2024_games.html, line 201: unreachable code after return statement
+JavaScript error: https://a.pub.network/basketball-reference/pubfig.min.js, line 1: Error: AB TEST FOUND - exiting after creating new instance...
+JavaScript warning: https://www.basketball-reference.com/boxscores/202403260NOP.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/boxscores/202403260NOP.html, line 201: unreachable code after return statement
+JavaScript error: https://a.pub.network/basketball-reference/pubfig.min.js, line 1: Error: AB TEST FOUND - exiting after creating new instance...
+JavaScript warning: https://www.basketball-reference.com/teams/DAL/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/DAL/2024_games.html, line 201: unreachable code after return statement
+JavaScript error: https://a.pub.network/basketball-reference/pubfig.min.js, line 1: Error: AB TEST FOUND - exiting after creating new instance...
+JavaScript warning: https://www.basketball-reference.com/boxscores/202403260SAC.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/boxscores/202403260SAC.html, line 201: unreachable code after return statement
+JavaScript error: https://a.pub.network/basketball-reference/pubfig.min.js, line 1: Error: AB TEST FOUND - exiting after creating new instance...
+JavaScript warning: https://www.basketball-reference.com/teams/HOU/2024_games.html, line 201: unreachable code after return statement
+JavaScript warning: https://www.basketball-reference.com/teams/HOU/2024_games.html, line 201: unreachable code after return statement
+JavaScript error: https://a.pub.network/basketball-reference/pubfig.min.js, line 1: Error: AB TEST FOUND - exiting after creating new instance...
+1711561053447	Marionette	INFO	Stopped listening on port 33509
